@@ -1,0 +1,27 @@
+{
+  "name": "protractor-cucumber-sample",
+  "version": "1.0.0",
+  "description": "Sample Protractor Cucumber framework",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "protractor ./src/configs/config.js & rm -r out-tsc"
+  },
+  "author": "Vinay Kumar B M",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "log4js": "^6.3.0",
+    "protractor": "^7.0.0",
+    "typescript": "^3.9.3",
+    "cucumber": "^6.0.5",
+    "@types/cucumber": "^6.0.1",
+    "protractor-cucumber-framework": "^6.2.1",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "@types/chai": "^4.2.11",
+    "cucumber-html-reporter": "^5.2.0"
+  }
+}
